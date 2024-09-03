@@ -19,8 +19,8 @@
       ]
     },
     {
-      "source": "linh",
-      "codebase": "linh",
+      "source": "src/functions",
+      "codebase": "src/functions",
       "ignore": [
         "node_modules",
         ".git",
@@ -31,7 +31,7 @@
     }
   ],
   "hosting": {
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -40,7 +40,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "src/index.html"
       }
     ]
   },
